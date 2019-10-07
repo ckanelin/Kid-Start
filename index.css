@@ -1,0 +1,28 @@
+body{
+	margin: auto 0;
+}
+
+nav{
+	width: 100%;
+	background-color: #B3FCFC;
+}
+
+.main-nav{
+
+	margin: auto 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	list-style: none;
+
+}
+
+.nav-item{
+	padding: 20px;
+	
+}
+
+.left{
+	margin-right: auto;
+}
