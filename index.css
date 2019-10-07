@@ -7,7 +7,7 @@ nav{
 	background-color: #B3FCFC;
 }
 
-.main-nav{
+.main-nav, .main-footer{
 
 	margin: auto 0;
 	display: flex;
@@ -18,7 +18,11 @@ nav{
 
 }
 
-.nav-item{
+.main-footer{
+	justify-content: center;
+}
+
+.nav-item, .footer-item{
 	padding: 20px;
 	
 }
@@ -26,3 +30,4 @@ nav{
 .left{
 	margin-right: auto;
 }
+
