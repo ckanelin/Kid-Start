@@ -31,3 +31,13 @@ nav{
 	margin-right: auto;
 }
 
+.carousel-text, .carousel-title{
+	
+}
+
+.carousel-title{
+
+	color: #fff;
+	font-size:2em;
+	font-family: "Be Vietnam" , "Calibri"
+}
