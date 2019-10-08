@@ -7,19 +7,13 @@ nav{
 	background-color: #fff;
 }
 
-.main-nav, .main-footer{
+.main-nav{
 
 	margin: auto 0;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-
-	list-style: none;
-
-}
-
-.main-footer{
-	justify-content: center;
+	list-style: none;	
 }
 
 .nav-item{
@@ -50,4 +44,10 @@ nav{
 .carousel-title{
 	font-size:4em;
 	font-weight: bolder;
+}
+
+
+#plea-logo{
+	width: 100px;
+	height: 100px;
 }
