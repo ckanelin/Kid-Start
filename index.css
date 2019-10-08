@@ -1,14 +1,14 @@
-body{
-	margin: auto 0;
-}
+/*Get rid of browser margins*/
+body{margin: auto 0;}
 
+/*Let nav bar span across the whole screen*/
+/*Background color is white*/
 nav{
 	width: 100%;
 	background-color: #fff;
 }
 
 .main-nav{
-
 	margin: auto 0;
 	display: flex;
 	justify-content: flex-end;
@@ -16,21 +16,55 @@ nav{
 	list-style: none;	
 }
 
-.nav-item{
-	padding: 25px;	
+#logo{padding: 0px;}
+
+.left{margin-right: auto;}
+
+.nav-logo{height: 8vh;}
+
+.nav-item{padding: 25px;}
+
+.nav-item > a{text-decoration: none;}
+
+/* Dropdown Button */
+.dropbtn, .nav-item > a{
+	color: #359CF6;
+  	font-size: 16px;	
+  	border: none;
 }
 
-#logo{
-	padding: 0px;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  	position: relative;
+  	display: inline-block;
 }
 
-.left{
-	margin-right: auto;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
 }
 
-.nav-logo{
-	height: 8vh;
+/* Links inside the dropdown */
+.dropdown-content a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
 }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; right: 0;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn, .nav-item > a:hover{color: #A7D5FD;}
 
 .carousel-text, .carousel-title{
 	color: #5A9AFA;
@@ -47,10 +81,7 @@ nav{
 }
 
 
-#plea-logo{
-	width: 100px;
-
-}
+#plea-logo{width: 100px;}
 
 .footer{
 	display: flex;
@@ -61,7 +92,7 @@ nav{
 .footer-item{
 	list-style: none;
 	text-align: center;
-	padding: 20px 20px 10px 20px;
+	padding: 10px 20px 5px 20px;
 }
 
 .footer-title{
