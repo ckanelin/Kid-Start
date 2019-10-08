@@ -49,5 +49,27 @@ nav{
 
 #plea-logo{
 	width: 100px;
-	height: 100px;
+
+}
+
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.footer-item{
+	list-style: none;
+	text-align: center;
+	padding: 20px 20px 10px 20px;
+}
+
+.footer-title{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.icon{
+	height: 30px;
+	margin: 10px;
 }
