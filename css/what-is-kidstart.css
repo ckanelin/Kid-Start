@@ -10,9 +10,6 @@ nav{
 
 .main-nav{
 	margin: auto 0;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
 	list-style: none;	
 }
 
@@ -28,7 +25,7 @@ nav{
 
 /* Dropdown Button */
 .dropbtn, .nav-item > a{
-	color: #359CF6;
+	   color: #359CF6;
   	font-size: 16px;	
   	border: none;
 }
@@ -68,27 +65,57 @@ nav{
 .dropdown:hover .dropbtn, .nav-item > a:hover{color: #A7D5FD;}
 
 .cover{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fff;
   font-family: "Pacifico", "Times New Roman";
-  height: 20vh;
+  height: 15vh;
   background-color: rgba(4,132,243,0.5);
 }
+
+.row-one, .row-two, .row-three{
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(4,132,243,0.5);
+}
+
+
+.body-item{
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  font-family: "Gill Sans";
+  font-size: 1.1em;
+
+}
+
+.body-item h3{
+  text-align: center;
+  color: #fff;
+  font-family: "Pacifico", "Times New Roman";
+
+}
+
+
+.img{
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
 
 
 #plea-logo{width: 100px;}
 
 .footer{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  border-top: 2px solid black;
 }
 
 .footer-item{
   list-style: none;
-  text-align: center;
   padding: 10px 20px 5px 20px;
 }
 
@@ -100,4 +127,20 @@ nav{
 .icon{
   height: 30px;
   margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .row-one, .row-two, .row-three{
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 1fr 1fr;
+
+    margin: 10px;
+    background-color: rgba(4,132,243,0.5);
+  }
+
+  .img{
+    height: auto;
+  }
+
 }
