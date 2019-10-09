@@ -9,12 +9,108 @@
 	</style>
 </head>
 <body>
-	<!-- Begin Nav Bar -->
-	<nav>
-		<ul class="main-nav d-flex justify-content-flex-end align-items-center">
-			<li class="nav-item left" id="logo">
-				<a href="./index.html"><img class="nav-logo" src="./imgs/kidstart-logo.png"></a>
-			</li>
+	<nav class="navbar navbar-expand-lg">
+  		<a class="navbar-brand" id="logo" href="./index.html"><img class="nav-logo" src="./imgs/kidstart-logo.png"></a>
+  		<button class="navbar-toggler navbar-dark bg-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav ml-auto">
+      			<li class="nav-item dropdown active"> 
+		  			<a class="nav-link dropdown-toggle nav-title" href="./pages/what-is-kidstart.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		    			<a class="dropdown-item" href="./pages/what-is-kidstart.html">What is KidStart</a>
+		    			<a class="dropdown-item" href="#">Partner Agencies</a>
+		    			<a class="dropdown-item" href="#">Is Kidstart For You</a>
+		    			<a class="dropdown-item" href="#">Community Impact</a>
+		  			</div>
+      			</li>
+      			<li class="nav-item dropdown">
+		  			<a class="nav-link dropdown-toggle nav-title" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Volunteers</a>
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		    			<a class="dropdown-item" href="#">Why Volunteers</a>
+		    			<a class="dropdown-item" href="#">Volunteer Application</a>
+		    			<a class="dropdown-item" href="#">Refer a Mentor</a>
+		    			<a class="dropdown-item" href="#">Mentorship Stories</a>
+		    			<a class="dropdown-item" href="#">FAQ</a>
+		  			</div>
+      			</li>
+      			<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle nav-title" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+		  			<div class="dropdown-menu">
+		    			<a class="dropdown-item" href="#">Regional Contacts</a>
+		    			<a class="dropdown-item" href="#">Area Contacts</a>
+		  			</div>		
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link nav-title" href="#">Support</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link nav-title" href="#">News & Events</a>
+      			</li>
+      			
+    		</ul>
+    
+	  	</div>
+	</nav>
+
+	<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	 	 <a class="navbar-brand" id="logo" href="./index.html"><img class="nav-logo" src="./imgs/kidstart-logo.png"></a>
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		   	<span class="navbar-toggler-icon"></span>
+		 </button>
+
+		 <div class="collapse navbar-collapse ml-auto" id="navbarTogglerDemo02">
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      	<li class="nav-item active">
+		       	 	<div class="dropdown nav-link">
+			  			<a href="./pages/what-is-kidstart.html"><button class="dropbtn">About Us</button></a>
+			  			<div class="dropdown-content">
+			    			<a href="./pages/what-is-kidstart.html">What is KidStart</a>
+			    			<a href="#">Partner Agencies</a>
+			    			<a href="#">Is Kidstart For You</a>
+			    			<a href="#">Community Impact</a>
+			  			</div>
+					</div>
+		      	</li>
+		      	<li class="nav-item">
+		       		<div class="dropdown nav-link">
+			  			<a href=""><button class="dropbtn">Volunteers</button></a>
+			  			<div class="dropdown-content">
+			    			<a href="#">Why Volunteers</a>
+			    			<a href="#">Volunteer Application</a>
+			    			<a href="#">Refer a Mentor</a>
+			    			<a href="#">Mentorship Stories</a>
+			    			<a href="#">FAQ</a>
+			  			</div>
+					</div>
+		      	</li>
+		      	<li class="nav-item">
+		        	<div class="dropdown nav-link">
+			  			<a href=">"><button class="dropbtn">Contact Us</button></a>
+			  			<div class="dropdown-content">
+			    			<a href="#">Regional Contacts</a>
+			    			<a href="#">Area Contacts</a>
+			  			</div>
+					</div>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="">Support</a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="">News & Events</a>
+		      	</li>
+		    </ul>
+		 </div>
+	</nav> -->
+	<!-- <nav>
+		<a class="nav-item left" id="logo" href="./index.html"><img class="nav-logo" src="./imgs/kidstart-logo.png"></a>
+		<ul class="main-nav navbar navbar-expand-lg d-flex justify-content-flex-end align-items-center">
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
 			<li class="nav-item dropdown">
 				<div class="dropdown">
 			  		<a href="./pages/what-is-kidstart.html"><button class="dropbtn">About Us</button></a>
@@ -50,7 +146,7 @@
       		<li class="nav-item"><a href="">Support</a></li>
 			<li class="nav-item"><a href="">News & Events</a></li>
 		</ul>
-	</nav>
+	</nav> -->
 	<!-- End Nav Bar -->
 	<!-- Begin Carousel -->
 	<div class="bd-example">
