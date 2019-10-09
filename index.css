@@ -10,9 +10,6 @@ nav{
 
 .main-nav{
 	margin: auto 0;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
 	list-style: none;	
 }
 
@@ -28,7 +25,7 @@ nav{
 
 /* Dropdown Button */
 .dropbtn, .nav-item > a{
-	color: #359CF6;
+	   color: #359CF6;
   	font-size: 16px;	
   	border: none;
 }
@@ -82,26 +79,24 @@ nav{
 }
 
 
+
 #plea-logo{width: 100px;}
 
 .footer{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  border-top: 2px solid black;
 }
 
 .footer-item{
-	list-style: none;
-	text-align: center;
-	padding: 10px 20px 5px 20px;
+  list-style: none;
+  padding: 10px 20px 5px 20px;
 }
 
 .footer-title{
-	font-size: 1.1em;
-	font-weight: bold;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .icon{
-	height: 30px;
-	margin: 10px;
+  height: 30px;
+  margin: 10px;
 }
