@@ -67,6 +67,17 @@ nav{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn, .nav-item > a:hover{color: #A7D5FD;}
 
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Pacifico", "Times New Roman";
+  height: 20vh;
+  background-color: rgba(4,132,243,0.5);
+}
+
+
 #plea-logo{width: 100px;}
 
 .footer{
