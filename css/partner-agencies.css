@@ -27,6 +27,20 @@ body{margin: auto 0;}
   background-color: rgba(4,132,243,0.5);
 }
 
+.main-text{
+	font-size: 1.5em;
+	font-family: "Poppins" , "Arial";
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
 .grid{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -69,6 +83,10 @@ body{margin: auto 0;}
 .partner-title{
 	font-size: 1.1em;
 	font-weight: bold;
+}
+
+.partner-text{
+	padding: 10px;
 }
 
 #plea-logo{width: 100px;}
