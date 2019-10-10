@@ -20,6 +20,8 @@ body{margin: auto 0;}
 
 .nav-title:hover {color: #A7D5FD;}
 
+
+
 .carousel-text, .carousel-title{
 	color: #5A9AFA;
 	font-family: "Be Vietnam" , "Calibri";
@@ -33,7 +35,6 @@ body{margin: auto 0;}
 	font-size:4em;
 	font-weight: bolder;
 }
-
 
 
 #plea-logo{width: 100px;}
@@ -56,3 +57,14 @@ body{margin: auto 0;}
   height: 30px;
   margin: 10px;
 }
+
+@media (max-width: 550px){
+  .footer-container{
+    width: 80vw;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
+
+

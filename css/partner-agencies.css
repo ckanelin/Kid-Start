@@ -128,3 +128,12 @@ body{margin: auto 0;}
 	}
 
 }
+
+@media (max-width: 550px){
+  .footer-container{
+    width: 80vw;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
