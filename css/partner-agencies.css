@@ -20,6 +20,57 @@ body{margin: auto 0;}
 
 .nav-title:hover {color: #A7D5FD;}
 
+.cover{
+  color: #fff;
+  font-family: "Pacifico", "Times New Roman";
+  height: 15vh;
+  background-color: rgba(4,132,243,0.5);
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr 1fr;
+	grid-gap: 10px;
+
+	background-color: rgba(4,132,243,0.5);
+	margin: 20px;
+
+	transition: 0.15s all ease-in;
+}
+
+.grid:hover{
+	transform: scale(1.05);
+}
+
+.background-white{
+	background-color: white;
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.div-rounded{
+	border-radius: 20px;
+}
+
+.partner-logo{
+	max-width: 75%;
+	height: auto;
+	text-align: center;
+}
+
+.partner-logo-big{
+	max-width: 50%;
+	height: auto;
+	text-align: center;
+}
+
+.partner-title{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
 #plea-logo{width: 100px;}
 
 .footer{
