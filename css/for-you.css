@@ -1,0 +1,71 @@
+/*Get rid of browser margins*/
+body{margin: auto 0;}
+
+#logo{padding: 0px;}
+
+.left{margin-right: auto;}
+
+.nav-logo{height: 8vh;}
+
+.nav-item{padding-left: 25px; padding-right: 25px;}
+
+
+/* Dropdown Button */
+.nav-title{
+    color: #359CF6;
+    font-size: 16px;  
+    font-family: "Arial";
+    border: none;
+}
+
+.nav-title:hover {color: #A7D5FD;}
+
+
+.cover{
+  color: #fff;
+  font-family: "Pacifico", "Times New Roman";
+  height: 15vh;
+  background-color: rgba(4,132,243,0.5);
+}
+
+#plea-logo{width: 100px;}
+
+.footer{
+  border-top: 2px solid black;
+}
+
+.footer-item{
+  list-style: none;
+  padding: 10px 20px 5px 20px;
+}
+
+.footer-title{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.icon{
+  height: 30px;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+
+  .cover{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .cover h1{
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 550px){
+  .footer-container{
+    width: 80vw;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
