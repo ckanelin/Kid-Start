@@ -87,13 +87,29 @@ body{margin: auto 0;}
 }
 
 @media (max-width: 800px) {
+
+  .cover{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .cover h1{
+    font-size: 2.2em;
+  }
+
   .row-one, .row-two, .row-three{
     display: grid;
-    grid-template-columns: 80vw;
+    grid-template-columns: 95vw;
     grid-template-rows: 1fr 1fr;
 
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
     background-color: rgba(4,132,243,0.5);
+  }
+
+  .body-item{
+    font-size: 0.9em;
   }
 
   .img{
