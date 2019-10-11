@@ -28,9 +28,45 @@ body{margin: auto 0;}
   background-color: rgba(4,132,243,0.5);
 }
 
-.hide{
-	display: none;
+.question-list{
+	list-style: none;
+	width: 80vw;
+	padding-left: 0px;
 }
+
+.question-container{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 5px solid rgba(4,132,243,0.5);
+	border-radius: 10px;
+}
+
+.question{
+	font-size: 1.5em; 
+	font-weight: bold; 
+	font-family: "Poppins", "Arial";
+	color: #000;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.question:hover{
+	text-decoration: none;
+	color: #9FA1A2;
+}
+
+.dropdown-text{
+	width: 100%;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 1px solid black;
+}
+
+.hide{display: none;}
 
 #plea-logo{width: 100px;}
 
@@ -62,6 +98,14 @@ body{margin: auto 0;}
 
   .cover h1{
     font-size: 2.2em;
+  }
+
+  .question{
+  	font-size: 1.2em;
+  }
+
+  .dropdown-text{
+  	font-size: 1em;
   }
 }
 
