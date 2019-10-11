@@ -28,6 +28,10 @@ body{margin: auto 0;}
   background-color: rgba(4,132,243,0.5);
 }
 
+.hide{
+	display: none;
+}
+
 #plea-logo{width: 100px;}
 
 .footer{
