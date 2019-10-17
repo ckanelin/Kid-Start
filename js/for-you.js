@@ -7,8 +7,9 @@ function toggleDropDown(event){
 	for (i = 0; i < texts.length; i++){
 		texts[i].classList.toggle("hide");
 	}
+	event.preventDefault();
 }
 
 for (i = 0; i < dropButtons.length; i++){
-	dropButtons[i].addEventListener("click",toggleDropDown);
+	dropButtons[i].addEventListener("click",toggleDropDown, false);
 }
